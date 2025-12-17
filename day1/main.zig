@@ -63,4 +63,3 @@ pub fn main() !void {
     defer allocator.free(output_slice);
     try stdout.writeAll(output_slice);
 }
-
